@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "shingja 的工科生手册"
+message: "如果这本手册对你有帮助，请按以下格式引用。"
+type: book
+authors:
+  - alias: shingja
+    name: shingja
+version: "0.1.0"
+date-released: "2026-10-17"
+repository-code: "https://github.com/shingja/ustb-engineering-handbook-shingja"
+url: "https://github.com/shingja/ustb-engineering-handbook-shingja"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - USTB
+  - 北京科技大学
+  - 工科
+  - 竞赛
+  - 项目
+  - 手册
+abstract: >-
+  面向北京科技大学工科本科生的竞赛与项目手册，覆盖信息、文档、代码与数据、
+  项目推进、风险与合规五个能力面。

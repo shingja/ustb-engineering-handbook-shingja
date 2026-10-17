@@ -1,0 +1,55 @@
+<!-- 作者 shingja · https://github.com/shingja/ustb-engineering-handbook-shingja · CC BY-NC-SA 4.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="shingja 的工科生手册">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#1b1430"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b9d"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="1010" cy="180" r="190" fill="#ff6b9d" opacity="0.06"/>
+
+  <!-- stacked pages / book -->
+  <g transform="translate(930 180) rotate(-6)">
+    <rect x="-120" y="-90" width="240" height="180" rx="12" fill="#161020" stroke="#22d3ee" stroke-width="3"/>
+    <rect x="-104" y="-74" width="208" height="148" rx="8" fill="#0f1420" stroke="#ff6b9d" stroke-width="2"/>
+    <g stroke="#67e8f9" stroke-opacity="0.55" stroke-width="2">
+      <path d="M-82 -48 H82"/><path d="M-82 -26 H82"/><path d="M-82 -4 H60"/>
+      <path d="M-82 18 H82"/><path d="M-82 40 H48"/>
+    </g>
+    <rect x="-82" y="62" width="64" height="8" rx="4" fill="#fde047"/>
+    <rect x="-8" y="62" width="90" height="8" rx="4" fill="#ff6b9d" opacity="0.7"/>
+  </g>
+
+  <!-- small floating cards -->
+  <g transform="translate(1080 70) rotate(8)">
+    <rect x="-38" y="-24" width="76" height="48" rx="8" fill="#161020" stroke="#fde047" stroke-width="2"/>
+    <path d="M-24 -8 H24 M-24 4 H12 M-24 16 H20" stroke="#fff7ed" stroke-opacity="0.7" stroke-width="2"/>
+  </g>
+  <g transform="translate(760 300) rotate(-8)">
+    <rect x="-34" y="-20" width="68" height="40" rx="8" fill="#161020" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M-22 -6 H22 M-22 6 H10" stroke="#67e8f9" stroke-opacity="0.7" stroke-width="2"/>
+  </g>
+
+  <!-- text -->
+  <text x="72" y="138" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="54" font-weight="800" fill="#fff7ed">shingja 的工科生手册</text>
+  <text x="76" y="188" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="22" fill="#c4b5d4">竞赛 · 项目 · 工具 · 经验</text>
+  <text x="76" y="226" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" fill="#8f7aa3" letter-spacing="2">面向北京科技大学工科本科生</text>
+  <rect x="76" y="246" width="150" height="4" rx="2" fill="url(#cyan)"/>
+  <text x="76" y="292" font-family="Segoe UI, Microsoft YaHei, sans-serif" font-size="12" fill="#7c6f91" letter-spacing="1.5">METHODS · TOOLS · WORKFLOWS · LESSONS</text>
+  <text x="1128" y="330" text-anchor="end" font-family="Segoe UI, sans-serif" font-size="11" fill="#5f5570" letter-spacing="2">USTB · 2026</text>
+</svg>

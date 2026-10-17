@@ -1,0 +1,17 @@
+# 作者 shingja · https://github.com/shingja/ustb-engineering-handbook-shingja · MIT⁠​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌​‌​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌​‌​​​​‌‌​​​​‌​‌‌​‌‌‌​​‌‌​​‌​​​‌‌​​​‌​​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌​‌‌​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​​‌‌​​​‌​‌‌​​​‌‌​​‌‌​​​​​‌‌​​‌​​​​‌‌‌​​‌​​‌‌​‌‌‌​​‌‌​​‌​​‌‌​​‌​‌​‌‌​​‌​‌​​‌‌​‌​​​​‌‌‌​​‌​​‌‌​​​‌⁠
+# ============================================================
+# shingja 的工科生手册 · 官方源码
+# Author     : shingja
+# Source     : https://github.com/shingja/ustb-engineering-handbook-shingja
+# License    : MIT
+# File-ID    : 1c0d972ee49103af
+# ============================================================
+
+blank_issues_enabled: false
+contact_links:
+  - name: 安全问题
+    url: https://github.com/shingja/ustb-engineering-handbook-shingja/security/advisories/new
+    about: 溯源破坏、隐私泄露、脚本风险、依赖投毒，请走私密报告。
+  - name: 官方仓库
+    url: https://github.com/shingja/ustb-engineering-handbook-shingja
+    about: 先确认你看到的是官方版本。

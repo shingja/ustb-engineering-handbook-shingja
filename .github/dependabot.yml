@@ -1,0 +1,21 @@
+# 作者 shingja · https://github.com/shingja/ustb-engineering-handbook-shingja · MIT⁠​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌​‌​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌​‌​​​​‌‌​​​​‌​‌‌​‌‌‌​​‌‌​​‌​​​‌‌​​​‌​​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌​‌‌​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌​​‌​​​‌‌​​‌​​​​‌‌​‌​​​‌‌​​‌‌​​‌‌​​​‌​​‌‌​​‌​​​‌‌​​​​‌​​‌‌​‌​​​​‌‌​‌‌‌​‌‌​​‌​‌​​‌‌​‌​‌​​‌‌​​​‌⁠
+# ============================================================
+# shingja 的工科生手册 · 官方源码
+# Author     : shingja
+# Source     : https://github.com/shingja/ustb-engineering-handbook-shingja
+# License    : MIT
+# File-ID    : dd4fbda47e51f1e3
+# ============================================================
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5

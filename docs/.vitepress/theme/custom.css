@@ -1,0 +1,39 @@
+/* 作者 shingja · https://github.com/shingja/ustb-engineering-handbook-shingja · CC BY-NC-SA 4.0 */
+/*
+ * ============================================================
+ * shingja 的工科生手册 · 官方源码
+ * Author     : shingja
+ * Source     : https://github.com/shingja/ustb-engineering-handbook-shingja
+ * License    : MIT
+ * File-ID    : 096f06e4edeeaa29
+ * ============================================================
+ */
+
+:root {
+  --vp-font-family-base: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  --vp-font-family-mono: "Cascadia Code", "Consolas", "Sarasa Mono SC", monospace;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+@media print {
+  .VPNav, .VPSidebar, .VPLocalNav, .VPDocFooter, .VPSkipLink, .VPDocAside {
+    display: none !important;
+  }
+  .VPDoc .content-container {
+    max-width: none !important;
+  }
+  .vp-doc h2, .vp-doc h3 {
+    page-break-after: avoid;
+  }
+  .vp-doc pre, .vp-doc table, .vp-doc img {
+    page-break-inside: avoid;
+  }
+  .vp-doc a {
+    color: inherit;
+    text-decoration: none;
+  }
+}⁠​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌​‌​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌​‌​​​​‌‌​​​​‌​‌‌​‌‌‌​​‌‌​​‌​​​‌‌​​​‌​​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌​‌‌​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​​‌‌​​​​​​‌‌‌​​‌​​‌‌​‌‌​​‌‌​​‌‌​​​‌‌​​​​​​‌‌​‌‌​​‌‌​​‌​‌​​‌‌​‌​​​‌‌​​‌​‌​‌‌​​‌​​​‌‌​​‌​‌​‌‌​​‌​‌⁠
