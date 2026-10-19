@@ -1,0 +1,59 @@
+# 作者 shingja · https://github.com/shingja/ustb-engineering-handbook-shingja · MIT⁠​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌​​‌​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌​‌​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​​‌​‌‌​‌​‌‌​‌​​​​‌‌​​​​‌​‌‌​‌‌‌​​‌‌​​‌​​​‌‌​​​‌​​‌‌​‌‌‌‌​‌‌​‌‌‌‌​‌‌​‌​‌‌​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​​‌‌​‌‌​​​‌‌​​‌‌​​‌‌​‌‌‌​‌‌​​‌‌​​​‌‌​‌‌‌​‌‌​​​‌​​​‌‌‌​​‌​​‌‌​‌‌‌​‌‌​​​‌​​‌‌​​​‌​​‌‌​​​​‌​​‌‌​‌​​⁠
+# ============================================================
+# shingja 的工科生手册 · 官方源码
+# Author     : shingja
+# Source     : https://github.com/shingja/ustb-engineering-handbook-shingja
+# License    : MIT
+# File-ID    : 637f7b97bba458ba
+# ============================================================
+
+name: 内容或工具问题
+description: 报告错误、失效链接、过时内容或脚本问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        安全问题请不要在这里贴细节，走 SECURITY.md 的私密报告。
+  - type: textarea
+    id: what
+    attributes:
+      label: 问题是什么
+      description: 涉及哪个文件、哪一节、哪个命令
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开...
+        2. 运行...
+        3. 看到...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      placeholder: 例如 v0.1.0 / 2026-10-17
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我没有在 issue 中包含真实姓名、学号、手机号、私人邮箱或队友信息
+          required: true
