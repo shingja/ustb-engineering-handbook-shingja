@@ -11,6 +11,7 @@
 面向北京科技大学工科本科生。不是题库，也不是项目模板库；讲的是怎么找信息、做文档、管代码、推项目，以及怎么把一件事做完。
 
 [![Status](https://img.shields.io/badge/status-public-brightgreen?style=flat-square)](#)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](VERSION)
 [![Docs](https://img.shields.io/badge/docs-CC%20BY--NC--SA%204.0-ff6b9d?style=flat-square)](LICENSE)
 [![Code](https://img.shields.io/badge/code-MIT-22d3ee?style=flat-square)](LICENSE-CODE)
 [![Site](https://img.shields.io/badge/site-VitePress-5c73e7?style=flat-square)](https://github.com/shingja/ustb-engineering-handbook-shingja)

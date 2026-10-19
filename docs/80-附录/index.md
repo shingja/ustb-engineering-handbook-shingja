@@ -8,7 +8,7 @@ description: 版本、许可与联系。
 
 ## 版本
 
-当前版本：`0.1.0`。版本记录见仓库根目录的 [CHANGELOG.md](../../CHANGELOG.md)。
+当前版本：`1.0.0`。版本记录见仓库根目录的 [CHANGELOG.md](../../CHANGELOG.md)。
 
 ## 许可与引用
 

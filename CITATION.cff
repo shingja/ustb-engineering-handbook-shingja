@@ -5,8 +5,8 @@ type: book
 authors:
   - alias: shingja
     name: shingja
-version: "0.2.1"
-date-released: "2026-10-17"
+version: "1.0.0"
+date-released: "2026-10-19"
 repository-code: "https://github.com/shingja/ustb-engineering-handbook-shingja"
 url: "https://github.com/shingja/ustb-engineering-handbook-shingja"
 license: CC-BY-NC-SA-4.0
